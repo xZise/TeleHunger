@@ -1,0 +1,20 @@
+name: TeleHunger
+version: "${project.version} b1"
+main: de.xzise.bukkit.telehunger.TeleHunger
+description: Exhausts the player from teleportion
+order: postworld
+authors:
+  - 'xZise'
+commands:
+  exc:
+    description: Native exhaust check
+    usage: /<command> [player name]
+  exnatc:
+    description: Native exhaust check
+    usage: /<command> [player name]
+#  exdr:
+#    description: Exhaust
+#    usage: /<command> <exhaust> [player name]
+#  exnatdr:
+#    description: Native exhaust drain
+#    usage: /<command> <exhaust> [player name]

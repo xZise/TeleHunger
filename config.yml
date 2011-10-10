@@ -1,0 +1,11 @@
+event: true
+formulas:
+  - formula: '0' # For extrem short teleports pay nothing
+    distance: 1
+  - formula: 'len*0.2' # Twice as walking/Once as jumping
+    distance: 20 # 0 - 20 m
+  - formula: 'len*0.015' # Half more than walking
+    distance: -1 # For all distances (if no other formula found)
+#  - formula: '0.02' # constant value (running 1 meter)
+#    distance: -1
+#    always: true
